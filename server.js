@@ -1,5 +1,4 @@
 const express = require('express')
-const mongoose=require("mongoose")
 const connectDB=require('./config/connectdb')
 const User=require("./models/User")
 const app = express()
